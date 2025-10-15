@@ -1,0 +1,106 @@
+2025-10-15 12:26:19,870 - 21156 - __main__ - INFO - Connection failed: 1049 (42000): Unknown database 'orders'. Retrying (1/2)...
+2025-10-15 12:26:21,903 - 21156 - __main__ - INFO - Connection failed: 1049 (42000): Unknown database 'orders'. Retrying (2/2)...
+2025-10-15 12:26:25,936 - 21156 - __main__ - INFO - Failed to connect, exiting without a connection: 1049 (42000): Unknown database 'orders'
+2025-10-15 12:26:25,937 - 21156 - __main__ - ERROR - Failed to establish database connection
+2025-10-15 12:29:29,004 - 22324 - __main__ - INFO - Database connection test successful!
+2025-10-15 12:36:24,257 - 27196 - connect - INFO - Database connection test successful!
+2025-10-15 12:51:31,070 - 19388 - connect - INFO - Database connection test successful!
+2025-10-15 12:51:31,102 - 19388 - connect - ERROR - Error creating tables: 1050: Table 'customers' already exists
+2025-10-15 12:51:58,882 - 6084 - connect - INFO - Database connection test successful!
+2025-10-15 12:51:58,987 - 6084 - connect - INFO - Database tables created successfully!
+2025-10-15 12:51:59,036 - 6084 - connect - ERROR - Error importing CSV data: Can only use .dt accessor with datetimelike values
+2025-10-15 12:52:18,946 - 6012 - connect - INFO - Database connection test successful!
+2025-10-15 12:52:19,062 - 6012 - connect - INFO - Database tables created successfully!
+2025-10-15 12:52:19,073 - 6012 - connect - ERROR - Error importing CSV data: 'Series' object has no attribute 'strftime'
+2025-10-15 12:53:03,279 - 1224 - connect - INFO - Database connection test successful!
+2025-10-15 12:53:03,386 - 1224 - connect - INFO - Database tables created successfully!
+2025-10-15 12:53:03,425 - 1224 - connect - ERROR - Error importing CSV data: 1287: 'VALUES function' is deprecated and will be removed in a future release. Please use an alias (INSERT INTO ... VALUES (...) AS alias) and replace VALUES(col) in the ON DUPLICATE KEY UPDATE clause with alias.col instead
+2025-10-15 12:53:29,619 - 14444 - connect - INFO - Database connection test successful!
+2025-10-15 12:53:29,720 - 14444 - connect - INFO - Database tables created successfully!
+2025-10-15 12:53:29,773 - 14444 - connect - ERROR - Error importing CSV data: 1265: Data truncated for column 'price' at row 1
+2025-10-15 12:53:48,950 - 13356 - connect - INFO - Database connection test successful!
+2025-10-15 12:53:49,054 - 13356 - connect - INFO - Database tables created successfully!
+2025-10-15 12:53:49,155 - 13356 - connect - INFO - CSV data imported successfully!
+2025-10-15 13:05:40,309 - 28084 - connect - INFO - Database connection test successful!
+2025-10-15 13:05:40,384 - 28084 - connect - INFO - CSV data imported successfully!
+2025-10-15 13:16:08,224 - 25716 - connect - INFO - Database connection test successful!
+2025-10-15 13:16:08,255 - 25716 - connect - ERROR - Error creating tables: 1051: Unknown table 'shop.orders'
+2025-10-15 13:16:48,679 - 29588 - connect - INFO - Database connection test successful!
+2025-10-15 13:16:48,711 - 29588 - connect - ERROR - Error creating tables: 1051: Unknown table 'shop.orders'
+2025-10-15 13:18:00,213 - 11156 - connect - INFO - Database connection test successful!
+2025-10-15 13:18:00,245 - 11156 - connect - ERROR - Error creating tables: 1051: Unknown table 'shop.orders'
+2025-10-15 13:18:20,815 - 23924 - connect - INFO - Database connection test successful!
+2025-10-15 13:18:20,845 - 23924 - connect - WARNING - Warning dropping table orders: 1051: Unknown table 'shop.orders'
+2025-10-15 13:18:20,847 - 23924 - connect - WARNING - Warning dropping table products: 1051: Unknown table 'shop.products'
+2025-10-15 13:18:20,849 - 23924 - connect - WARNING - Warning dropping table customers: 1051: Unknown table 'shop.customers'
+2025-10-15 13:18:20,899 - 23924 - connect - INFO - Database tables created successfully!
+2025-10-15 13:18:20,938 - 23924 - connect - ERROR - Error importing CSV data: 1287: 'VALUES function' is deprecated and will be removed in a future release. Please use an alias (INSERT INTO ... VALUES (...) AS alias) and replace VALUES(col) in the ON DUPLICATE KEY UPDATE clause with alias.col instead
+2025-10-15 13:19:05,520 - 19804 - connect - INFO - Database connection test successful!
+2025-10-15 13:19:05,620 - 19804 - connect - INFO - Database tables created successfully!
+2025-10-15 13:19:05,701 - 19804 - connect - INFO - CSV data imported successfully!
+2025-10-15 13:50:14,045 - 15028 - connect - INFO - Database connection test successful!
+2025-10-15 13:50:14,143 - 15028 - connect - INFO - Database tables created successfully!
+2025-10-15 13:50:14,198 - 15028 - connect - ERROR - Error importing CSV data: 'id'
+2025-10-15 13:51:55,512 - 18648 - connect - INFO - Database connection test successful!
+2025-10-15 13:51:55,609 - 18648 - connect - INFO - Database tables created successfully!
+2025-10-15 13:51:55,656 - 18648 - connect - ERROR - Error importing CSV data: 'id'
+2025-10-15 13:53:20,012 - 9512 - connect - INFO - Database connection test successful!
+2025-10-15 13:53:20,104 - 9512 - connect - INFO - Database tables created successfully!
+2025-10-15 13:53:20,143 - 9512 - connect - ERROR - Error importing CSV data: 'id'
+2025-10-15 13:55:18,010 - 22968 - connect - INFO - Database connection test successful!
+2025-10-15 13:55:18,106 - 22968 - connect - INFO - Database tables created successfully!
+2025-10-15 13:55:18,163 - 22968 - connect - ERROR - Error importing CSV data: 'customer_id'
+2025-10-15 13:56:13,892 - 4548 - connect - INFO - Database connection test successful!
+2025-10-15 13:56:14,007 - 4548 - connect - INFO - Database tables created successfully!
+2025-10-15 13:56:14,060 - 4548 - connect - ERROR - Error importing CSV data: 'customer_id'
+2025-10-15 13:58:03,277 - 21980 - connect - INFO - Database connection test successful!
+2025-10-15 13:58:03,306 - 21980 - connect - WARNING - Warning dropping table orders: 1051: Unknown table 'shop.orders'
+2025-10-15 13:58:03,308 - 21980 - connect - WARNING - Warning dropping table products: 1051: Unknown table 'shop.products'
+2025-10-15 13:58:03,310 - 21980 - connect - WARNING - Warning dropping table customers: 1051: Unknown table 'shop.customers'
+2025-10-15 13:58:03,362 - 21980 - connect - INFO - Database tables created successfully!
+2025-10-15 13:58:03,415 - 21980 - connect - ERROR - Error importing CSV data: 'customer'
+2025-10-15 13:58:42,857 - 18068 - connect - INFO - Database connection test successful!
+2025-10-15 13:58:42,967 - 18068 - connect - INFO - Database tables created successfully!
+2025-10-15 13:58:43,022 - 18068 - connect - ERROR - Error importing CSV data: 'customer'
+2025-10-15 13:59:21,736 - 16332 - connect - INFO - Database connection test successful!
+2025-10-15 13:59:21,830 - 16332 - connect - INFO - Database tables created successfully!
+2025-10-15 13:59:21,880 - 16332 - connect - ERROR - Error importing CSV data: 'customer'
+2025-10-15 14:00:02,237 - 13528 - connect - INFO - Database connection test successful!
+2025-10-15 14:00:02,357 - 13528 - connect - INFO - Database tables created successfully!
+2025-10-15 14:00:02,411 - 13528 - connect - ERROR - Error importing CSV data: 'customer'
+2025-10-15 14:01:19,671 - 20472 - connect - INFO - Database connection test successful!
+2025-10-15 14:01:19,781 - 20472 - connect - INFO - Database tables created successfully!
+2025-10-15 14:01:19,786 - 20472 - connect - INFO - customers_df columns: ['customer_id', 'name', 'email']
+2025-10-15 14:01:19,786 - 20472 - connect - INFO - products_df columns: ['product_id', 'product_name', 'price']
+2025-10-15 14:01:19,787 - 20472 - connect - INFO - orders_df columns: ['order_id', 'date_time', 'customer_id', 'product_id']
+2025-10-15 14:01:19,869 - 20472 - connect - INFO - CSV data imported successfully!
+2025-10-15 14:29:12,106 - 26756 - connect - INFO - Database connection test successful!
+2025-10-15 14:29:12,200 - 26756 - connect - INFO - Database tables created successfully!
+2025-10-15 14:29:12,205 - 26756 - connect - INFO - customers_df columns: ['customer_id', 'name', 'email']
+2025-10-15 14:29:12,205 - 26756 - connect - INFO - products_df columns: ['product_id', 'product_name', 'price']
+2025-10-15 14:29:12,205 - 26756 - connect - INFO - orders_df columns: ['order_id', 'date_time', 'customer_id', 'product_id']
+2025-10-15 14:29:12,295 - 26756 - connect - INFO - CSV data imported successfully!
+2025-10-15 14:30:47,068 - 19576 - connect - INFO - Database connection test successful!
+2025-10-15 14:30:47,101 - 19576 - connect - WARNING - Warning dropping table orders: 1051: Unknown table 'shop.orders'
+2025-10-15 14:30:47,103 - 19576 - connect - WARNING - Warning dropping table products: 1051: Unknown table 'shop.products'
+2025-10-15 14:30:47,106 - 19576 - connect - WARNING - Warning dropping table customers: 1051: Unknown table 'shop.customers'
+2025-10-15 14:30:47,161 - 19576 - connect - INFO - Database tables created successfully!
+2025-10-15 14:30:47,168 - 19576 - connect - INFO - customers_df columns: ['customer_id', 'name', 'email']
+2025-10-15 14:30:47,168 - 19576 - connect - INFO - products_df columns: ['product_id', 'product_name', 'price']
+2025-10-15 14:30:47,169 - 19576 - connect - INFO - orders_df columns: ['order_id', 'date_time', 'customer_id', 'product_id']
+2025-10-15 14:30:47,263 - 19576 - connect - INFO - CSV data imported successfully!
+2025-10-15 14:36:39,313 - 7716 - connect - INFO - Database connection test successful!
+2025-10-15 14:36:39,417 - 7716 - connect - INFO - Database tables created successfully!
+2025-10-15 14:36:39,421 - 7716 - connect - INFO - customers_df columns: ['customer_id', 'name', 'email']
+2025-10-15 14:36:39,421 - 7716 - connect - INFO - products_df columns: ['product_id', 'product_name', 'price']
+2025-10-15 14:36:39,421 - 7716 - connect - INFO - orders_df columns: ['order_id', 'date_time', 'customer_id', 'product_id']
+2025-10-15 14:36:39,551 - 7716 - connect - INFO - CSV data imported successfully!
+2025-10-15 14:40:59,207 - 7308 - connect - INFO - Database connection test successful!
+2025-10-15 14:40:59,237 - 7308 - connect - WARNING - Warning dropping table orders: 1051: Unknown table 'shop.orders'
+2025-10-15 14:40:59,239 - 7308 - connect - WARNING - Warning dropping table products: 1051: Unknown table 'shop.products'
+2025-10-15 14:40:59,241 - 7308 - connect - WARNING - Warning dropping table customers: 1051: Unknown table 'shop.customers'
+2025-10-15 14:40:59,295 - 7308 - connect - INFO - Database tables created successfully!
+2025-10-15 14:40:59,300 - 7308 - connect - INFO - customers_df columns: ['customer_id', 'name', 'email']
+2025-10-15 14:40:59,300 - 7308 - connect - INFO - products_df columns: ['product_id', 'product_name', 'price']
+2025-10-15 14:40:59,300 - 7308 - connect - INFO - orders_df columns: ['order_id', 'date_time', 'customer_id', 'product_id']
+2025-10-15 14:40:59,389 - 7308 - connect - INFO - CSV data imported successfully!
