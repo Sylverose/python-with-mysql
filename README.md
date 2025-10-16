@@ -119,7 +119,7 @@ The script automatically creates the following table structure in your MySQL dat
 **Author:** Andy Sylvia Rosenvold
 
 **Credits:**
-- GitHub Copilot (AI pair programmer)
+- GitHub Copilot (AI pair programmer) - used for tool suggestions, file structure and debugging
 - MySQL with Python documentation (https://dev.mysql.com/doc/connector-python/en/ and https://pandas.pydata.org/docs/)
 
 ## License
@@ -131,3 +131,4 @@ GPL-3.0 license
 - Uses MySQL 8.0.20+ alias syntax for `ON DUPLICATE KEY UPDATE` (future-proof, no deprecation warnings)
 
 - Tables can be created from Python using the included `create_tables()` function in `main.py` (run the script to drop, create, and import in one go)
+
